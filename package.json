@@ -1,63 +1,63 @@
 {
-	"name": "chatstarter",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "run-p dev:*",
-		"dev:next": "next dev --turbopack",
-		"dev:convex": "convex dev",
-		"dev:nodev": "node -v",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@clerk/nextjs": "^6.3.0",
-		"@livekit/components-react": "^2.6.11",
-		"@livekit/components-styles": "^1.1.4",
-		"@radix-ui/react-avatar": "^1.1.1",
-		"@radix-ui/react-dialog": "^1.1.2",
-		"@radix-ui/react-dropdown-menu": "^2.1.2",
-		"@radix-ui/react-label": "^2.1.0",
-		"@radix-ui/react-scroll-area": "^1.2.1",
-		"@radix-ui/react-select": "^2.1.4",
-		"@radix-ui/react-separator": "^1.1.0",
-		"@radix-ui/react-slot": "^1.1.0",
-		"@radix-ui/react-tooltip": "^1.1.3",
-		"again": "^0.0.1",
-		"class-variance-authority": "^0.7.0",
-		"clsx": "^2.1.1",
-		"convex": "^1.17.0",
-		"convex-helpers": "^0.1.63",
-		"livekit-client": "^2.8.0",
-		"livekit-server-sdk": "^2.9.7",
-		"lucide-react": "^0.456.0",
-		"next": "15.0.3",
-		"next-themes": "^0.4.3",
-		"npm-run-all": "^4.1.5",
-		"prettier": "^3.3.3",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
-		"sonner": "^1.7.0",
-		"svix": "^1.39.0",
-		"tailwind-merge": "^2.5.4",
-		"tailwindcss-animate": "^1.0.7"
-	},
-	"devDependencies": {
-		"@types/node": "^18",
-		"@types/react": "npm:types-react@19.0.0-rc.1",
-		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-		"eslint": "^8",
-		"eslint-config-next": "15.0.3",
-		"postcss": "^8",
-		"tailwindcss": "^3.4.1",
-		"typescript": "^5"
-	},
-	"overrides": {
-		"@types/react": "npm:types-react@19.0.0-rc.1",
-		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
-	},
-	"engines": {
-		"node": "18.x"
-	}
+  "name": "chatstarter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:next": "next dev --turbopack",
+    "dev:convex": "convex dev",
+    "dev:nodev": "node -v",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.3.0",
+    "@livekit/components-react": "^2.6.11",
+    "@livekit/components-styles": "^1.1.4",
+    "@radix-ui/react-avatar": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-scroll-area": "^1.2.1",
+    "@radix-ui/react-select": "^2.1.4",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.3",
+    "again": "^0.0.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "convex": "^1.17.0",
+    "convex-helpers": "^0.1.63",
+    "livekit-client": "^2.8.0",
+    "livekit-server-sdk": "^2.9.7",
+    "lucide-react": "^0.456.0",
+    "next": "15.0.7",
+    "next-themes": "^0.4.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sonner": "^1.7.0",
+    "svix": "^1.39.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
